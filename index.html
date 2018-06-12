@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>GiphyProject</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="./assets/javascript/main2.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row"> 
+            <div class="col-xs-11 col-s-11 col-md-11 col-l-11 col-centered" id="title-containter">
+                <img src="assets/Images/Splat_Edited_Final.jpg" id="title-image">                            
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-11 col-s-11 col-md-11 col-l-11 col-centered" id="title">
+                <h1 class="text-centered">Pump Out Some 90's Cartoon Gifs</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row no-gutters col-centered" id="button-holder-row">
+            <div class="col-xs-6 col-s-6 col-md-6 col-l-6" id="buttons-here">
+                    <h3>By Clicking One Of These Buttons</h3>
+                    <br>
+                    <div id="button-holder">
+                
+                    </div>
+            </div>
+            <div class="col-xs-6 col-s-6 col-md-6 col-l-6" id="form-holder">
+                <form>
+                    <div class="form-group">
+                        <h3>You Can Even Add Your Own Button!</h3>
+                        <label for="submit-cartoon">By Adding Any 90's Cartoon Here:</label>
+                        <input type="text" class="form-control" id="submit-cartoon" placeholder="Enter Cartoon Here. We Strictly Do The 90's!" onkeypress="return event.keyCode != 13" autocomplete="off" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="button-factory">Submit</button>
+                </form>
+                <br>
+                <button class="btn btn-primary" id="random-button">Random</button>
+                <button class="btn btn-primary" id="clear-gifs">Clear</button>
+            </div>
+        </div>
+        <br>
+        <div class="row" id="just-click-row">
+            <div class="col-xs-6 col-s-6 col-md-6 col-l-6">
+                <h3 id="just-click">Just Click To Start And Stop</h3>
+            </div>
+            <div class="col-xs-0 col-s-0 col-md-6 col-l-6"></div>
+        </div>
+        <br>
+        <div class="row" id="gif-holder-row">
+            <div class="col-xs-12 col-centered" id="gif-holder"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    font-family: 'Fredoka One', cursive;
+    color: #ffffff;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.col-right {
+    float: none;
+    margin-left: auto;
+}
+
+.col-left {
+    float: none;
+    margin-right: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#title-image {
+    height: 600px;
+    width: 900px;
+    transition: transform .5s;
+}
+
+.animate {
+    transform: scale(.5);
+}
+
+#title-image {
+    -webkit-animation: fadein .5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }    
+    to   { opacity: 1; }
+}
+
+.btn-primary {
+    color: #fff;
+    background: linear-gradient(to top, #ff7200 0%, #ffffcc 100%);
+    border-color: #ff7200; 
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: linear-gradient(to top, #ff8000 0%, #ffffcc 100%);
+    border-color: #ff7200;
+    outline: none !important;
+}
+
+.btn-primary:focus {
+    border-color: #ff7200;
+    outline: none !important;
+    box-shadow: 0px 0px 30px 0px #ff7200;
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #ff7200 !important;
+    border-color: #ff7200 !important;  
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    background-color: black;
+    border: 0;
+    height: 190px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #EBEAEA;
+    font-size: 20px;
+}
+
+#buttons-here {
+    margin: 0;
+}
+
+#form-holder {
+    padding-left: 20px;
+}
+
+img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    outline: none !important;
+}
+
+#cartoon-image {
+    height: 180px;
+    width: 220px;
+}
+
+img:hover {
+    -webkit-box-shadow: 0px 0px 30px 0px #ff7200;
+    -moz-box-shadow:    0px 0px 30px 0px #ff7200;
+    box-shadow:         0px 0px 30px 0px #ff7200;
+}
+
+img:focus {
+    outline: 0 !important;
+    border: none !important;
+    -moz-outline-style: none !important;
+}
+
+#img-container:focus {
+    outline: 0 !important;
+    border: none !important;
+    -moz-outline-style: none !important;
+}
+
+:focus {
+    outline: none !important;
+}
