@@ -76,11 +76,6 @@ body {
     border-color: #ff7200 !important;  
 }
 
-#cartoon-image {
-    height: 200px;
-    width: 270px;
-}
-
 .image-container {
     position: relative;
     text-align: center;
@@ -106,6 +101,8 @@ body {
 }
 
 #cartoon-image {
+    height: 200px;
+    width: 270px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
