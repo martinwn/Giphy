@@ -53,7 +53,7 @@ setTimeout(function(){
     $(document).on("click", ".cartoon-button", function() {
 
         var cartoon = $(this).attr("data-cartoon");
-        var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + cartoon + "&api_key=JA32TS5rjZKXD3SCraNBmRyfAxO3nmJP&limit=10";
+        var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + cartoon + "&api_key=JA32TS5rjZKXD3SCraNBmRyfAxO3nmJP&limit=10";
         
         $.ajax({
             url: queryUrl,
