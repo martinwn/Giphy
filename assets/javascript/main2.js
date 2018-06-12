@@ -7,6 +7,7 @@ setTimeout(function(){
     $("#title-image").fadeTo(1000, 0.01, function(){ 
         $(this).slideUp(150, function() {
             $(this).remove(); 
+            $("#title-row").remove();
         }); 
     });
 }, 1500);

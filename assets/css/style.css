@@ -31,9 +31,14 @@ body {
     cursor: pointer;
 }
 
+#title-row {
+    
+}
+
 #title-image {
-    height: 800px;
-    width: 1000px;
+    height: 600px;
+    width: 900px;
+    margin-left: 80px;
     transition: transform .5s;
 }
 
@@ -76,8 +81,8 @@ body {
 }
 
 #cartoon-image {
-    height: 360px;
-    width: 440px;
+    height: 200px;
+    width: 270px;
 }
 
 .image-container {
@@ -85,13 +90,13 @@ body {
     text-align: center;
     background-color: black;
     border: 0;
-    height: 445px;
+    height: 250px;
 }
 
 .top-right {
     position: absolute;
-    top: 8px;
-    right: 16px;
+    top: 26px;
+    right: 20px;
     color: #EBEAEA;
     font-size: 20px;
 }
