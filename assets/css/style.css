@@ -75,12 +75,17 @@ body {
     border-color: #ff7200 !important;  
 }
 
+#cartoon-image {
+    height: 360px;
+    width: 440px;
+}
+
 .image-container {
     position: relative;
     text-align: center;
     background-color: black;
     border: 0;
-    height: 190px;
+    height: 445px;
 }
 
 .top-right {
@@ -104,11 +109,6 @@ img {
     -moz-border-radius: 10px;
     border-radius: 10px;
     outline: none !important;
-}
-
-#cartoon-image {
-    height: 180px;
-    width: 220px;
 }
 
 img:hover {
