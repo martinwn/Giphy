@@ -32,8 +32,8 @@ body {
 }
 
 #title-image {
-    height: 1600px;
-    width: 2000px;
+    height: 800px;
+    width: 1000px;
     transition: transform .5s;
 }
 
